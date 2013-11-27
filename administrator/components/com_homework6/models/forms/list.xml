@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+
+              <field name="id" type="text" default="0" label="COM_HOMEWORK6_FORM_LBL_LIST_ID"
+            readonly="true" class="readonly"
+            description="JGLOBAL_FIELD_ID_DESC" /> 
+
+       <field name="created_by" type="createdby" default="" 
+            label="COM_HOMEWORK6_FORM_LBL_LIST_CREATED_BY"
+            description="COM_HOMEWORK6_FORM_DESC_LIST_CREATED_BY"  /> 
+
+       <field name="namy" type="text"
+                
+            label="COM_HOMEWORK6_FORM_LBL_LIST_NAMY"
+            description="COM_HOMEWORK6_FORM_DESC_LIST_NAMY" 
+                
+                
+                 required="true" 
+            class="name-class"
+            filter="safehtml" /> 
+
+       <field name="info" type="textarea"
+                
+            label="COM_HOMEWORK6_FORM_LBL_LIST_INFO"
+            description="COM_HOMEWORK6_FORM_DESC_LIST_INFO" 
+                
+                
+                
+            class="info-class"
+            cols="100"
+            rows="8" /> 
+
+       <field name="age" type="text"
+                
+            label="COM_HOMEWORK6_FORM_LBL_LIST_AGE"
+            description="COM_HOMEWORK6_FORM_DESC_LIST_AGE" 
+                
+                
+                
+            class="age-class"
+            filter="safehtml" /> 
+
+       <field name="floor" type="text"
+                
+            label="COM_HOMEWORK6_FORM_LBL_LIST_FLOOR"
+            description="COM_HOMEWORK6_FORM_DESC_LIST_FLOOR" 
+                
+                
+                
+            class="floor-class"
+            filter="safehtml" /> 
+
+       <field name="group" type="text"
+                
+            label="COM_HOMEWORK6_FORM_LBL_LIST_GROUP"
+            description="COM_HOMEWORK6_FORM_DESC_LIST_GROUP" 
+                
+                
+                
+            class="group-class"
+            filter="safehtml" /> 
+
+       <field name="ball" type="text"
+                
+            label="COM_HOMEWORK6_FORM_LBL_LIST_BALL"
+            description="COM_HOMEWORK6_FORM_DESC_LIST_BALL" 
+                
+                
+                
+            class="ball-class"
+            filter="safehtml" /> 
+
+       <field name="number" type="text"
+                
+            label="COM_HOMEWORK6_FORM_LBL_LIST_NUMBER"
+            description="COM_HOMEWORK6_FORM_DESC_LIST_NUMBER" 
+                
+                
+                 required="true" 
+            class="number-class"
+            filter="safehtml" /> 
+
+       <field name="foto" type="media"
+                
+            label="COM_HOMEWORK6_FORM_LBL_LIST_FOTO"
+            description="COM_HOMEWORK6_FORM_DESC_LIST_FOTO" 
+                
+                
+                
+            filter="raw"
+            directory="/var/www/joomla/images/" /> 
+
+         <field
+        name="state"
+        type="list"
+        label="JSTATUS"
+        description="JFIELD_PUBLISHED_DESC"
+        class="inputbox"
+        size="1"
+        default="1">
+        <option value="1">JPUBLISHED</option>
+        <option value="0">JUNPUBLISHED</option>
+    </field> 
+
+                        <field name="checked_out" type="hidden" filter="unset" />
+        <field name="checked_out_time" type="hidden" filter="unset" />
+
+	</fieldset>
+
+</form>

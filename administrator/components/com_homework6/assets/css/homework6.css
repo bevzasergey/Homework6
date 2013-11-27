@@ -1,0 +1,26 @@
+.icon-48-lists {
+      background-image: url(../images/l_lists.png);
+      padding-left:60px!important;
+}
+
+.icon-48-list {
+      background-image: url(../images/l_lists.png);
+      padding-left:60px!important;
+}
+a:link	{
+	text-decoration: none;
+	color: #6699CC; }
+a:visited	{
+	text-decoration: none;
+	color: #336699; }
+a:active	{
+	text-decoration: underline;
+	color: #ff0000; }
+a:hover	{
+	text-decoration: underline;
+	color: #ff0000; }
+.name a {
+    font: 14px Arial;
+    text-decoration: none;
+    color:#000000 !important;
+}
