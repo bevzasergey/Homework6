@@ -17,8 +17,8 @@ defined('_JEXEC') or die;
     }
 </script>
 
-<div class="items">
-    <ul class="items_list">
+<div class="items test-style">
+    <ul class="items_list test-style">
 <?php $show = false; ?>
         <?php foreach ($this->items as $item) : ?>
 

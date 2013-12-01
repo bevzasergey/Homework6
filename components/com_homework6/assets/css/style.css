@@ -1,0 +1,28 @@
+.test-style{
+background: #00f800;
+    text-align: center;
+    color:red;
+    font-size:21px;
+
+}
+a:link {
+    color: blue;
+    text-decoration:none;
+}
+
+a:visited {
+    color: purple;
+    text-decoration:none;
+}
+
+a:hover {
+    letter-spacing: 10px;
+    font-weight:bold;
+    color:red;
+}
+
+a:hover {
+    color:red;
+    text-decoration:none;
+}
+

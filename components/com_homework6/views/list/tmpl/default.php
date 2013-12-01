@@ -16,9 +16,9 @@ $lang->load('com_homework6', JPATH_ADMINISTRATOR);
 ?>
 <?php if ($this->item) : ?>
 
-    <div class="item_fields">
+    <div class="item_fields test-style ">
 
-        <ul class="fields_list">
+        <ul class="fields_list test-style">
 
             			<li><?php echo JText::_('COM_HOMEWORK6_FORM_LBL_LIST_ID'); ?>:
 			<?php echo $this->item->id; ?></li>

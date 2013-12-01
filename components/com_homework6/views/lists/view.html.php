@@ -28,7 +28,9 @@ class Homework6ViewLists extends JView
 	public function display($tpl = null)
 	{
         $app                = JFactory::getApplication();
-        
+
+        JFactory::getDocument()->addStyleSheet('components/com_homework6/assets/css/style.css');
+
         $this->state		= $this->get('State');
         $this->items		= $this->get('Items');
         $this->pagination	= $this->get('Pagination');

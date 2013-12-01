@@ -28,8 +28,11 @@ class Homework6ViewList extends JView {
     public function display($tpl = null) {
         
 		$app	= JFactory::getApplication();
+
+        JFactory::getDocument()->addStyleSheet('components/com_homework6/assets/css/style.css');
+
         $user		= JFactory::getUser();
-        
+
         $this->state = $this->get('State');
         $this->item = $this->get('Data');
 
